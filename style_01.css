@@ -1,0 +1,42 @@
+.body{
+    background :url(../snake_gamee.jpg);
+    min-height: 100vh;
+   background-size: 376vh 95vw;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#board{
+    background-color: rgb(124, 97, 103);
+    width:100vmin;
+    height:95vmin;
+    border:3px solid black;
+    display:grid;
+    grid-template-rows: repeat(20,1fr);
+    grid-template-columns: repeat(20,1fr);
+}
+.head{
+    background: linear-gradient(brown,rgb(212, 233, 28));
+border: 0.7vmin solid rgb(14, 13, 13);
+border-radius:20px;
+}
+.snake{
+    border: 2vmin solid rgb(14, 41, 17);
+    border-radius:10px;
+    background-color: black;
+    }
+.food{
+    background: linear-gradient(rgb(30, 102, 30),black);
+    border:  solid rgb(183, 207, 138);
+    border-radius:30px;
+}
+#scorecount{
+    position: absolute;
+    top: 54px;
+    right: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
